@@ -1,35 +1,62 @@
-# Prerequisites
-*.d
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Precompiled Headers
-*.gch
-*.pch
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Unit test / coverage reports
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
 
-# Fortran module files
-*.mod
-*.smod
+# Translations
+*.mo
+*.pot
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
 
-# Executables
-*.exe
-*.out
-*.app
+# Flask stuff:
+instance/
+.webassets-cache
 
-# Build
-/build*/
+# Scrapy stuff:
+.scrapy
+
+# Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
